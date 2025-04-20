@@ -1,1 +1,10 @@
-Welcome to my personal portfolio! Here, you'll find some of the projects I've been working on
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon Site GitHub.io</title>
+</head>
+<body>
+    <h1>Bonjour le monde ! 🌍</h1>
+    <p>Mon premier site hébergé sur GitHub Pages.</p>
+</body>
+</html>
