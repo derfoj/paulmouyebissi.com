@@ -1,10 +1,60 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Mon Site GitHub.io</title>
-</head>
+    <title>Paul Mouyebissi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
 <body>
-    <h1>Bonjour le monde ! 🌍</h1>
-    <p>Mon premier site hébergé sur GitHub Pages.</p>
+    <header>
+        <h1>Mon Portfolio de Projets</h1>
+        <p>Découvrez les projets sur lesquels j'ai travaillé.</p>
+        <nav>
+            <ul>
+                <li><a href="home_page.html">Accueil</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Projets</h2>
+
+        <article>
+            <h3>Génération automatisée de SMS marketing avec l'IA</h3>
+            <p><strong>Cadre :</strong> Wellpack AI Clinic</p>
+            <p><strong>Période :</strong> Janv. 2024 - Mars 2024</p>
+            <ul>
+                <li>Conception et implémentation d'un compteur de caractères et moteur de troncature dynamique pour garantir des messages à minimum 160 caractères.</li>
+                <li>Développement d'un workflow de génération de 3 variantes de SMS par requête, facilitant la comparaison d'efficacité via A/B testing.</li>
+                <li>Création d'un système d'export des messages générés dans un fichier JSON, servant de base à l'évaluation quantitative des performances du modèle.</li>
+                <li>Intégration du prototype LLM avec une interface Flask, pilotée par Langchain/Ollama, et conteneurisation de l'application sous Docker.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Analyse de Performance Chips & Chicken</h3>
+            <p><strong>Période :</strong> Janv. 2024 - Mars 2024</p>
+            <ul>
+                <li>Conception d'un tableau de bord interactif sous Power BI réduisant de 25% le temps d'analyse manuelle.</li>
+                <li>Automatisation du nettoyage et prétraitement de données clients et transactionnelles via SQL et Pandas.</li>
+                <li>Exploration des tendances de ventes et identification des leviers de performance à l'aide de visualisations avancées, facilitant la prise de décisions stratégiques.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Projet Data Segmentation clients & Prédiction</h3>
+            <p><strong>Cadre :</strong> Projet personnel</p>
+            <p><strong>Période :</strong> 2025</p>
+            <ul>
+                <li>Segmentation de 3000+ clients et prédiction des ventes/prix immobiliers (KMeans, PCA, t-SNE, Ridge, Lasso avec 87% de précision).</li>
+                <li>Technologies utilisées : Python, Scikit-learn, Seaborn.</li>
+            </ul>
+        </article>
+
+        </section>
+
+    <footer>
+        <p>&copy; 2025 Paul Mouyebissi</p>
+    </footer>
 </body>
 </html>

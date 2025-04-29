@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif; /* Utilise une police de caractères simple et lisible */
+    margin: 0; /* Supprime la marge par défaut autour du corps de la page */
+    padding: 0; /* Supprime le remplissage par défaut */
+    background-color: #f4f4f4; /* Définit une couleur de fond légère */
+    color: #333; /* Définit la couleur du texte principal */
+    line-height: 1.6; /* Améliore la lisibilité en espaçant les lignes */
+}
+
+header {
+    background-color: #333; /* Couleur de fond pour l'en-tête */
+    color: #fff; /* Couleur du texte dans l'en-tête */
+    padding: 1rem 0; /* Remplissage en haut et en bas, pas sur les côtés */
+    text-align: center; /* Centre le texte dans l'en-tête */
+}
+
+header h1 {
+    margin: 0; /* Supprime la marge par défaut du titre h1 dans l'en-tête */
+    font-size: 2.5rem; /* Taille de la police pour le titre principal */
+}
+
+header p {
+    margin-top: 0; /* Supprime la marge supérieure par défaut du paragraphe dans l'en-tête */
+    font-size: 1.2rem; /* Taille de la police pour le paragraphe sous le titre */
+}
+
+nav ul {
+    padding: 0; /* Supprime le remplissage par défaut de la liste de navigation */
+    list-style: none; /* Supprime les puces de la liste */
+    text-align: center; /* Centre les éléments de la liste */
+    margin-top: 1rem; /* Ajoute un peu d'espace au-dessus de la navigation */
+}
+
+nav ul li {
+    display: inline; /* Affiche les éléments de la liste en ligne */
+    margin: 0 10px; /* Ajoute une marge entre les éléments de la liste */
+}
+
+nav a {
+    color: #fff; /* Couleur des liens de navigation */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-weight: bold; /* Met le texte en gras */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Souligne les liens au survol de la souris */
+}
+
+
+section {
+    padding: 20px; /* Ajoute un remplissage autour de chaque section */
+    margin: 20px auto; /* Centre la section et ajoute une marge au-dessus et en dessous */
+    max-width: 800px; /* Définit une largeur maximale pour le contenu des sections */
+    background-color: #fff; /* Couleur de fond pour les sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre autour des sections */
+    border-radius: 8px; /* Arrondit les coins des sections */
+}
+
+h2 {
+    color: #333; /* Couleur des titres de section */
+    border-bottom: 2px solid #333; /* Ajoute une ligne sous les titres de section */
+    padding-bottom: 10px; /* Ajoute un espace sous la ligne */
+    margin-bottom: 20px; /* Ajoute un espace en bas des titres de section */
+}
+
+article {
+    margin-bottom: 30px; /* Ajoute de l'espace entre les articles de projet */
+    padding-bottom: 20px; /* Ajoute un espace en bas de chaque article */
+    border-bottom: 1px dashed #ccc; /* Ajoute une ligne pointillée entre les articles */
+}
+
+article:last-child {
+    border-bottom: none; /* Supprime la bordure pointillée du dernier article */
+}
+
+
+footer {
+    text-align: center; /* Centre le texte du pied de page */
+    padding: 20px 0; /* Ajoute un remplissage en haut et en bas */
+    margin-top: 20px; /* Ajoute un espace au-dessus du pied de page */
+    color: #777; /* Couleur du texte du pied de page */
+    font-size: 0.9rem; /* Taille de la police du pied de page */
+}
+
+/* Style pour les liens dans les sections (GitHub, LinkedIn, Email) */
+section a {
+    color: #007bff; /* Couleur bleue typique pour les liens */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+section a:hover {
+    text-decoration: underline; /* Souligne les liens au survol */
+}
