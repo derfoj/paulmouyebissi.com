@@ -21,7 +21,7 @@ Vous pouvez visiter ma page personnelle et mon portfolio directement ici :
 
 N'hésitez pas à me contacter pour toute question ou opportunité :
 
-* LinkedIn : [MOUYEBISSI Paul](www.linkedin.com/in/mouyebissi-paul-655122285)
+* LinkedIn : [MOUYEBISSI Paul](https://www.linkedin.com/in/mouyebissi-paul-655122285/)
 * Email : [paulmouyebissi@gmail.com](mailto:paulmouyebissi@gmail.com)
 
 
