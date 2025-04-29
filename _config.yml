@@ -1,3 +1,28 @@
-theme: jekyll-theme-minimal
-title: paul mouyebissi  homepage
-description: Bookmark this to keep an eye on my project updates!
+# Site settings
+# Ces variables sont disponibles dans vos templates via site.variable_name
+title: Paul Mouyebissi | Data Science & AI Portfolio # Titre plus descriptif
+description: Explorez le portfolio de Paul Mouyebissi, étudiant en Intelligence Artificielle et Science de Données, incluant ses projets, compétences et parcours. # Description plus détaillée pour les moteurs de recherche
+baseurl: "" # Le sous-chemin de votre site, par exemple /blog. Laissez vide pour la racine si votre site est à l'adresse https://votre_nom_utilisateur.github.io.
+url: "https://derfoj.github.io/paulmouyebissi.github.io/" # L'URL de votre site (sans le slash final) - **À REMPLACER PAR VOTRE URL RÉELLE**
+
+# Informations sur l'auteur
+author:
+  name: Paul Mouyebissi
+  email: paulmouyebissi@gmail.com # Adresse email extraite du CV [cite: 11]
+  github: Mouyebissi paul # Nom d'utilisateur GitHub (à vérifier si c'est exactement celui-ci) [cite: 11]
+  linkedin: MOUYEBISSI Paul # Nom/Identifiant LinkedIn (à vérifier si c'est l'identifiant exact dans l'URL de votre profil) [cite: 11]
+
+# Build settings
+# Exclure les fichiers ou dossiers qui ne doivent pas être copiés sur le site publié
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules # si vous utilisez Node.js pour le développement front-end
+  - vendor
+
+# Thème Jekyll
+theme: jekyll-theme-minimal # Vous pouvez laisser ce thème simple ou le changer si vous explorez d'autres options plus tard
+
+# Plugins (si vous utilisez des plugins Jekyll)
+plugins:
+  - jekyll-feed # Exemple : pour générer un flux RSS
